@@ -13,7 +13,7 @@ header {
     width: 100%;
     background: #4B2E2E;
     color: #F5E6D3;
-    padding: 10px 20px;
+    padding: 10px 0px;
     font-family: 'Raleway', sans-serif;
     z-index: 1000;
 }
@@ -21,6 +21,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
     align-items: center;
 }
 
@@ -33,7 +34,7 @@ header {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
     margin: 0;
     padding: 0;
 }
